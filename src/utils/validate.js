@@ -1,0 +1,1 @@
+exports.escapeRegex = (text) => text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
